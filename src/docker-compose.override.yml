@@ -4,12 +4,19 @@ services:
   documan.api:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ASPNETCORE_URLS=http://+:80
+      - OrchestratorType=${ORCHESTRATOR_TYPE}
     ports:
-      - "80"
-      - "443"
+      - "5101:80"    
     volumes:
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
   documan.worker:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+      - OrchestratorType=${ORCHESTRATOR_TYPE}
+      - Serilog__MinimumLevel__Override__Microsoft.eShopOnContainers.BuildingBlocks.EventBusRabbitMQ=Verbose
     volumes:
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+    ports:
+      - "5102:80"    
