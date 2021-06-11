@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  documan.api:
+    image: ${DOCKER_REGISTRY-}documanapi:${PLATFORM:-linux}-${TAG:-latest}
+    build:
+      context: .
+      dockerfile: Services/documan.api/Dockerfile
+
+  documan.worker:
+    image: ${DOCKER_REGISTRY-}documanworker:${PLATFORM:-linux}-${TAG:-latest}
+    build:
+      context: .
+      dockerfile: Services/documan.worker/Dockerfile
+
