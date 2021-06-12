@@ -9,13 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{22
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5193EE03-1DD3-4023-8CA6-C8E5BFFBD99A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "documan.api", "Services\documan.api\documan.api.csproj", "{AFEEF5EF-7228-4A14-BC7E-6851E96587AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "documan.api", "Services\documan.api\documan.api.csproj", "{AFEEF5EF-7228-4A14-BC7E-6851E96587AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "documan.domain", "Services\documan.domain\documan.domain.csproj", "{C0AF15A4-5CB3-4460-8179-5B914185BC4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "documan.domain", "Services\documan.domain\documan.domain.csproj", "{C0AF15A4-5CB3-4460-8179-5B914185BC4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "documan.worker", "Services\documan.worker\documan.worker.csproj", "{D65DB705-DA99-46C0-8029-8476D642FD55}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "documan.infrastructure", "Services\documan.infrastructure\documan.infrastructure.csproj", "{5FFF6FFF-5458-4023-93D1-E887C8983991}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "documan.infrastructure", "Services\documan.infrastructure\documan.infrastructure.csproj", "{5FFF6FFF-5458-4023-93D1-E887C8983991}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0ED4AA98-9472-4CC7-B02C-8AB0B05B43E9}"
 	ProjectSection(SolutionItems) = preProject
@@ -58,18 +56,6 @@ Global
 		{C0AF15A4-5CB3-4460-8179-5B914185BC4B}.Release|x64.Build.0 = Release|Any CPU
 		{C0AF15A4-5CB3-4460-8179-5B914185BC4B}.Release|x86.ActiveCfg = Release|Any CPU
 		{C0AF15A4-5CB3-4460-8179-5B914185BC4B}.Release|x86.Build.0 = Release|Any CPU
-		{D65DB705-DA99-46C0-8029-8476D642FD55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D65DB705-DA99-46C0-8029-8476D642FD55}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D65DB705-DA99-46C0-8029-8476D642FD55}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{D65DB705-DA99-46C0-8029-8476D642FD55}.Debug|x64.Build.0 = Debug|Any CPU
-		{D65DB705-DA99-46C0-8029-8476D642FD55}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{D65DB705-DA99-46C0-8029-8476D642FD55}.Debug|x86.Build.0 = Debug|Any CPU
-		{D65DB705-DA99-46C0-8029-8476D642FD55}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D65DB705-DA99-46C0-8029-8476D642FD55}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D65DB705-DA99-46C0-8029-8476D642FD55}.Release|x64.ActiveCfg = Release|Any CPU
-		{D65DB705-DA99-46C0-8029-8476D642FD55}.Release|x64.Build.0 = Release|Any CPU
-		{D65DB705-DA99-46C0-8029-8476D642FD55}.Release|x86.ActiveCfg = Release|Any CPU
-		{D65DB705-DA99-46C0-8029-8476D642FD55}.Release|x86.Build.0 = Release|Any CPU
 		{5FFF6FFF-5458-4023-93D1-E887C8983991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5FFF6FFF-5458-4023-93D1-E887C8983991}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FFF6FFF-5458-4023-93D1-E887C8983991}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -103,7 +89,6 @@ Global
 		{2201C700-033B-450E-845F-27B8C8D93DE2} = {5193EE03-1DD3-4023-8CA6-C8E5BFFBD99A}
 		{AFEEF5EF-7228-4A14-BC7E-6851E96587AA} = {2201C700-033B-450E-845F-27B8C8D93DE2}
 		{C0AF15A4-5CB3-4460-8179-5B914185BC4B} = {2201C700-033B-450E-845F-27B8C8D93DE2}
-		{D65DB705-DA99-46C0-8029-8476D642FD55} = {2201C700-033B-450E-845F-27B8C8D93DE2}
 		{5FFF6FFF-5458-4023-93D1-E887C8983991} = {2201C700-033B-450E-845F-27B8C8D93DE2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
